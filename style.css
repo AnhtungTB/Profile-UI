@@ -28,7 +28,7 @@ body {
 }
 
 #profile {
-    width:1440px;
+    max-width:1440px;
     min-height:600px;
     margin: 0px auto;
 }
@@ -349,3 +349,16 @@ html *::-webkit-scrollbar-track {
         opacity: 1;
     }
 }
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .content__left,.content__right{
+        width: 100%;
+    }
+
+  }
