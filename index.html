@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link href="https://vjs.zencdn.net/7.20.1/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="profile">
+      <header class="header">
+        <div class="header__text"></div>
+      </header>
+
+      <main>
+        <!-- Content Page -->
+        <div class="content__left">
+          <div class="user__avatar">
+            <img
+              class="avatar"
+              src="image/78448688_1020714748271395_7484053622213312512_o.jpg"
+              alt="avatar"
+            />
+          </div>
+          <div class="user__name">
+            <p>Tung</p>
+          </div>
+          <div class="user__position">
+            <p>Front-End Developer</p>
+          </div>
+          <div class="user__analysis">
+            <div class="item">
+              <p>100</p>
+              <p>Follower</p>
+            </div>
+            <div class="item">
+              <p>1</p>
+              <p>Following</p>
+            </div>
+            <div class="item">
+              <p>100</p>
+              <p>Likes</p>
+            </div>
+          </div>
+          <div class="user__desc">
+            <p>
+              Phan Anh Tùng sinh viên năm 4 ngành CNTT trường đại học Kinh Doanh
+              và Công Nghệ Hà Nội. <br />
+              Sở thích : Nghe nhạc,Xem phim
+            </p>
+          </div>
+
+          <button class="btn__connect">Connect Me</button>
+        </div>
+
+        <div class="content__right">
+          <div class="content__header">
+            <ul class="content__menu">
+              <li class="tab active">Photos</li>
+              <li class="tab">Videos</li>
+              <li class="tab">Notifications</li>
+              <li class="tab">Games</li>
+              <div class="line"></div>
+            </ul>
+
+            <!-- follow button -->
+            <button class="btn__follow">Follow</button>
+          </div>
+
+          <!-- Content body -->
+
+          <div class="content__bottom">
+            <!-- Content image -->
+            <div class="pane active">
+              <ul class="list__photos">
+                <li class="item">
+                  <img src="image/1.jpg" alt="1" />
+                </li>
+                <li class="item">
+                  <img src="image/2.jpg" alt="2" />
+                </li>
+                <li class="item">
+                  <img src="image/3.jpg" alt="3" />
+                </li>
+                <li class="item">
+                  <img src="image/4.jpg" alt="4" />
+                </li>
+                <li class="item">
+                  <img src="image/5.jpg" alt="5" />
+                </li>
+                <li class="item">
+                  <img src="image/6.jpg" alt="6" />
+                </li>
+                <li class="item">
+                  <img src="image/7.jpg" alt="7" />
+                </li>
+                <li class="item">
+                  <img src="image/8.jpg" alt="8" />
+                </li>
+              </ul>
+            </div>
+
+            <div class="pane">
+              <h2>Your videos</h2>
+              <ul class="list__videos">
+                <li class="video__item">
+                  <video class="my-video video-js" data-setup="{}" controls>
+                    <source src="videos/1.mp4" type="video/mp4" />
+                    <source src="1.ogg" type="video/ogg" />
+                  </video>
+                </li>
+
+                <li class="video__item">
+                  <video class="my-video video-js" data-setup="{}" controls>
+                    <source
+                      src="videos/y2meta.com - Thương Em Đến Già (Lofi Ver.) - Lê Bảo Bình x meChill x CaoTri_ Anh Thấy Lòng Thật Bình Yên.mp4"
+                      type="video/mp4"
+                    />
+                    <source src="1.ogg" type="video/ogg" />
+                  </video>
+                </li>
+
+                <li class="video__item">
+                  <video class="my-video video-js" data-setup="{}" controls>
+                    <source
+                      src="videos/y2meta.com - Về Bên Anh「Lofi Ver.」- Jack x Mihle _ Audio Lyric Video.mp4"
+                      type="video/mp4"
+                    />
+                    <source src="1.ogg" type="video/ogg" />
+                  </video>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pane">
+              <h1>Notifications</h1>
+            </div>
+
+            <div class="pane">
+              <div class="games">
+                <div class="game__item">
+                  <a href="https://www.facebook.com/VALORANTvn" target="_blank">
+                    <img src="image/valorant-logo-FAB2CA0E55-seeklogo.com.png" alt="">
+                  </a>
+                </div>
+
+                <div class="game__item">
+                  <a href="https://www.facebook.com/VALORANTvn" target="_blank">
+                    <img src="image/Lien-Minh-Huyen-Thoai-ky-niem-10-nam-1.jpg">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="popup_image">
+              <span class="popup_span">&times;</span>
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
+  </body>
+</html>
