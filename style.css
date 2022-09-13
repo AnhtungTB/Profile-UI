@@ -245,6 +245,7 @@ li.tab.active {
 /* Videos */
 
 .content__bottom h2 {
+    padding-left: 2rem;
     border-radius: 5px;
     margin-top: 20px;
     color: var(--color-light);
@@ -320,7 +321,7 @@ li.tab.active {
     max-width: 750px;
     height:700px;
     object-fit: cover;
-    animation: scroll .5s linear;
+    animation: viewImg .5s linear;
     z-index: 10;
 }
 
@@ -339,7 +340,7 @@ html *::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0);
 }
 
-@keyframes scroll {
+@keyframes viewImg {
     from {
         height:0px;
         opacity: 0.5;

@@ -1,5 +1,4 @@
 var headerText = document.querySelector(".header__text");
-var index = 0;
 var text = "Phan Anh Tùng ";
 
 for (let i = 0; i < text.length; i++) {
@@ -8,6 +7,7 @@ for (let i = 0; i < text.length; i++) {
   headerText.appendChild(span);
 }
 
+var index = 0;
 var listSpan = document.querySelectorAll(".header__text span");
 
 setInterval(() => {
